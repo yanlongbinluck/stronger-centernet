@@ -43,6 +43,7 @@ backbone  | training size  | test size | AP@[0.5,...,0.95] | FPS
  ---- | ----- | ------  | ----- | -----
 ResNet-18  | 768 | 768 | 39.7 |90.5
 ResNet-50  | 768 | 768 | 43.2 |46
+ResNet-50^+  | 768 | 768 | 44.5 |38
 Darknet-53  | 768 | 768 | 44.7 |42.6
 Darknet-53^+  | 768 | 768 | 45.6 |35.8
 ## Acknowledgement
