@@ -41,11 +41,12 @@ training with 8 GPUs:
 The FPS is measured on V100 GPU with batchsize = 1, float32 mode. ^+ means model with AFFM and DDH.
 backbone  | training size  | test size | AP@[0.5,...,0.95] | FPS 
  ---- | ----- | ------  | ----- | -----
-ResNet-18  | 768 | 768 | 39.7 |90.5
-ResNet-50  | 768 | 768 | 43.2 |46
-ResNet-50^+  | 768 | 768 | 44.5 |38
-Darknet-53  | 768 | 768 | 44.7 |42.6
-Darknet-53^+  | 768 | 768 | 45.6 |35.8
+ResNet-18  | 768x768 | 768x768 | 39.7 |90.5
+ResNet-18^+  | 768x768 | 768x768 | 41.0 |55
+ResNet-50  | 768x768 | 768x768 | 43.2 |46
+ResNet-50^+  | 768x768 | 768x768 | 44.5 |38
+Darknet-53  | 768x768 | 768x768 | 44.7 |42.6
+Darknet-53^+  | 768x768 | 768x768 | 45.6 |35.8
 ## Acknowledgement
 This project is mainly implemented based on [ttfnet](https://github.com/ZJULearning/ttfnet), [mmdetection](https://github.com/open-mmlab/mmdetection), [CenterNet](https://github.com/xingyizhou/CenterNet), etc. Many Thanks for these repos.
 ## Citations
